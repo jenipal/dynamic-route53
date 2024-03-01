@@ -1,0 +1,35 @@
+{
+  "name": "dynamic-route53",
+  "version": "0.0.1",
+  "keywords": [
+    "dynamic",
+    "dns",
+    "route53",
+    "aws"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jenipal/dynamic-route53"
+  },
+  "description": "Dynamic DNS for Route 53",
+  "bin": {
+    "dynRoute53": "bin/dynRoute53.js"
+  },
+  "main": "lib/dynRoute53.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "author": "experlwyx",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.390.0",
+    "dotenv": "^6.2.0",
+    "minimist": "^1.2.0",
+    "mocha": "^5.2.0",
+    "node-cache": "^4.2.1",
+    "node-cron": "^2.0.3",
+    "public-ip": "^3.0.0",
+    "winston": "^3.1.0"
+  }
+}
